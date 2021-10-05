@@ -30,7 +30,7 @@ public class IOHandler {
         } while (!exit);
     }
 
-    public void commandsInfo() {
+    private void commandsInfo() {
         if (!account.getLogged()) {
             System.out.println("1. Create an account\n" +
                     "2. Log into account\n" +
